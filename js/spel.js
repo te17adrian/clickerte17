@@ -67,7 +67,7 @@ zebraButton.addEventListener("click", function() {
 // lejonet är en one time powerup som kostar mer allteftersom
 lionButton.addEventListener("click", function() {
 	if (bank >= lejonCost) {
-		clickValue *= 2;
+		clickValue *= 2.6;
 		bank -= lejonCost;
 		lejonCost *= 1.4;
 		lejonClicks += 10;

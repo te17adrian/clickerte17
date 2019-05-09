@@ -1,25 +1,21 @@
 html {
-	
+	scroll-behavior: smooth;	
 }
 
 body {
-	background-color: #000;
-	color: #f0f0f0;
+	background-color: rgb(0, 0, 0);
+	color: #f0f0f0;	
 }
 
 .navbar-custom {
 	background-color: #ff7300;
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 300;
-	letter-spacing: 0.03rem;
+	font-family: 'VT323', monospace;;
 }
 
 section {
 	height: 100vh;
-	background-image: url('../bild/.png');
-	background-size: cover;
-	background-position: center;
-	background-position-x: center;
+	background-image: url('../bild/hallway.jpeg');
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 
@@ -28,19 +24,20 @@ section {
 }
 
 #game, #score{
-	text-align: center;
-	font-family: 'Permanent Marker', cursive;
+	text-align: right;
+	font-family: 'VT323', monospace;
+	
 }
 
 #score {
-	font-size: 2em;
+	font-size: 4em;
 }
 
 #clickerbutton {
-	font-size: 3em;
+	padding-right: 1000px;
+	font-size: 2em;
 	background-image: url('../bild/crab.png');
-	background-color: transparent;
-	color: #f0f0f0;
+	background-color:transparent;
 	border: 0px;
 	height: 250px;
 	width: 250px;
@@ -85,9 +82,9 @@ footer {
 	font-size: 1em;
 	width:140px;
 	height:110px;
-	border-radius: 10px;
-	background-color: #EB5508;
-	font-family: 'Permanent Marker', cursive;
+	border-radius: 6px;
+	background-color: rgb(214, 79, 0);
+	font-family: 'VT323', monospace;
 	letter-spacing: .4rem;
 	border:0px solid #7E8987;
 	text-align: center;
@@ -104,5 +101,13 @@ footer {
 }
 
 #powerText {
-	white-space: pre;
+	white-space: pre-wrap;
+	display: none;
+	display: block;
+    margin: 0 auto;
+}
+p {
+	text-align: center;
+	display: block;
+    margin: 0 auto;
 }
